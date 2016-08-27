@@ -1,0 +1,153 @@
+/*reset.css*/
+*{
+	margin: 0;
+	padding: 0;
+}
+
+a{
+	text-decoration: none;
+}
+
+ul,li{
+	list-style: none;
+}
+
+input,button,textarea{
+	outline: none;
+}
+
+/*页面背景*/
+body{
+	background: url("imgs/beijing.gif");
+}
+
+/*主题容器*/
+.wrapper{
+	padding: 5px 35.5px;
+	width: 637px;
+	margin: 0 auto;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	background: #ffffff;
+	border-radius: 30px;
+}
+
+/*导航部分*/
+header{
+	position: relative;
+}
+
+header nav{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+
+header nav a{
+	font-size: 12px;
+	line-height: 150%;
+	margin-right: 5px;
+	color: rgb(255,0,153);
+}
+
+header nav a:hover{
+	color: rgb(255,0,0);
+}
+/*公共属性设置*/
+.color_red{
+	color: #ff0000;
+}
+
+.color_blue{
+	color: blue;
+}
+
+span{
+	color: blue;
+}
+.content table .td_two{
+	width: 136px;
+	text-align: right;
+}
+
+.content table input.int{
+	width: 243px;
+	height: 17px;
+}
+/*注册主体部分样式*/
+
+/*.content{
+	text-align: left;
+}*/
+.content table{
+	width: 637px;
+	font-size: 12px;
+	line-height: 150%;
+	color: #333333;
+	border: 1px solid #ccc;
+	border-collapse: collapse;
+}
+
+.content table td{
+	border: 1px solid #ccc;
+	padding: 2px;
+}
+.content table caption{
+	font-size: 18px; 
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.content table .td_one{
+	text-align: center;
+}
+tbody tr td a{
+	text-decoration: underline;
+	color: #0000ff;
+}
+
+tbody tr td a:hover{
+	color: #ff0000;
+}
+/*表格二级标题*/
+.content table h2{
+	font-size: 13px;
+	font-weight: bold;
+	color: #003399;
+	background: #ddd;
+	line-height: 23px;
+	padding-left: 15px;
+}
+
+.content table .text_int{
+	width: 145px;
+	height: 17px;
+}
+
+.content table .td_three{
+	line-height: 23px;
+}
+
+.content table .td_four{
+	text-align: center;
+}
+
+.content table .td_four button{
+	width: 90px;
+	height: 22px;
+	margin: 30px auto;
+
+}
+/*底部样式*/
+.content .footer{
+	text-align: center;
+	font-size: 12px;
+	margin-top: 2px;
+	margin-bottom: 25px;
+}
+
+.content .footer span{
+	color: gray;
+}
+
+
